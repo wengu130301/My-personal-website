@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【李硕文】的个人主页</title>
+    <!-- 【修改】网站描述 -->
+    <meta name="description" content="这里是【李硕文】的个人网站，分享关于【我的领域/兴趣，如：前端开发、产品设计】的思考与项目。">
+
+    <!-- 【可选】引入PWA功能，如需要，取消下面两行注释 -->
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <!-- <meta name="theme-color" content="#4a6fa8"> -->
+
+    <!-- 引入CSS和JS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">【李硕文】</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">首页</a>
+                <a href="#about">关于我</a>
+                <a href="#projects">项目</a>
+                <a href="#skills">技能</a>
+                <a href="#contact">联系</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 主页英雄区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="assets/avatar.JPG" alt="【李硕文】的头像" class="avatar">
+                <h1 class="hero-title">你好，我是 <span class="highlight">【李硕文】</span></h1>
+                <p class="hero-subtitle">【一名对创造优雅解决方案充满热情的前端开发者。】</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看我的项目</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <p>【我是一个初中生，一次偶然的机会，我闯入了开发者的奇妙世界，靠着一股不服输的钻劲儿和无数个对着屏幕摸索的夜晚，敲出了一行行代码，搭建出了属于我自己的第一个网站。
+
+这个网站不算多么炫酷，却藏着我满满的心血与奇思妙想。它是我的小小天地，我在这里分享自己喜欢的动漫主题曲、整理苹果旧设备的折腾心得，偶尔还会记录下用代码解决小问题的成就感。从一开始对着教程一步步模仿，到后来能自己琢磨着修改界面、添加小功能，每一次调试成功的提示音，都让我满心欢喜。现在的它，更像是我的一个成长日记本，见证着我从编程小白，一点点朝着热爱的方向靠近，也期待着未来能在这个小小的站点里，装进更多有趣的想法和故事。】</p>
+                <p>我是一名学生也是一名软件工程师，热衷于将复杂问题转化为直观、易用的Web应用。我相信好的代码和好的设计能够共同创造卓越的用户体验。在我的空闲时间，我喜欢【捣鼓Apple设备】。</p>
+                <div class="about-links">
+                    <a href=“【github搜索wengu】” target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="【全网搜索汩星人】" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <!-- 可以添加更多社交链接 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">我的项目</h2>
+            <p class="section-subtitle">以下是一些我近期完成或正在进行的作品。</p>
+            <div class="projects-grid">
+                <!-- 项目1 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #f0f4f8; color: #2e4c7a; display: flex; align-items: center; justify-content: center; font-size: 48px;">
+                        📱
+                    </div>
+                    <div class="project-info">
+                        <h3>【PWA工具箱】</h3>
+                        <p>【一个集成了计算器和天气预报的渐进式Web应用，可以安装到手机桌面使用。】</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PWA</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="【https://github.com/wengu130301/my-first-website】" target="_blank"><i class="fab fa-github"></i> 代码</a>
+                            <a href="【https://wengu130301.github.io/my-first-website/】" target="_blank"><i class="fas fa-external-link-alt"></i> 在线体验</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 项目2 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-color: #e6f7ff; color: #0056b3; display: flex; align-items: center; justify-content: center; font-size: 48px;">
+                        🌐
+                    </div>
+                    <div class="project-info">
+                        <h3>【个人网站】</h3>
+                        <p>【你现在正在构建的这个响应式个人网站，采用现代CSS布局。】</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" onclick="alert('你现在就在这个网站上！');return false;"><i class="fab fa-github"></i> 代码</a>
+                            <a href="#home"><i class="fas fa-external-link-alt"></i> 在线体验</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 你可以复制 project-card 块来添加更多项目 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">技能与工具</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> 前端开发</h3>
+                    <ul class="skill-list">
+                        <li>HTML / CSS (Flexbox, Grid)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>响应式设计与开发</li>
+                        <li>PWA (渐进式Web应用)</li>
+                        <li>Git 版本控制</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> 设计与其他</h3>
+                    <ul class="skill-list">
+                        <li>UI / UX 基础</li>
+                        <li>Figma / Sketch (基础)</li>
+                        <li>GitHub Pages 部署</li>
+                        <li>问题解决能力</li>
+                        <li>持续学习</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <p class="section-subtitle">很高兴能与你交流！欢迎通过以下方式找到我。</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>邮箱</h3>
+                            <a href="mailto:【3199704668@qq.com】”>【aawengu123@icloud.com】</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href=“【GitHub.com】” target="_blank”>【wengu】</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 【可选】未来可以在这里添加一个简单的联系表单 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> 【李硕文】. 保留所有权利。</p>
+            <p class="footer-note">本网站已部署为 <a href="#" onclick="alert('你已成功掌握PWA部署！');return false;">PWA</a>，欢迎探索。</p>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <a href="#home" id="backToTop" title="返回顶部"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- 引入JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
